@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#43cea2 , #185a9d);
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    
+    background-color: #43cea2;
+}
+
+.brand-logo {
+    font-family: 'Lobster', cursive;
+}
+
+.jumbotron {
+    padding: 20px 0;
+    background-image:linear-gradient(to top ,rgba(0,0,0,0.9), rgba(0,0,0,0.1)), url(../assets/background-infoClub.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.mediumImg {
+    height: 140px;
+}
+
+h3 {
+    margin: 0;
+}
+
+button {
+    padding: 5px;
+    height: 35px;
+    border: solid 1px orchid;
+    border-radius: 4px;
+    color: white;
+    background: linear-gradient(#cc2b5e, #753a88);
+}
+
+button a{
+    color: white;
+}
+
+#tabelSquad .card {
+    height: 500px;
+    overflow: auto;
+}
+
+#tabelSquad .card table {
+    position: relative;
+}
+
+#tabelSquad .card table tr th {
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(218, 214, 214);
+    color: rgb(66, 65, 65);
+    border-radius: 0;
+}
+
+#tabelSquad tbody tr td:nth-child(n+3){
+    text-align: center;
+}
+
+#tabelSquad tbody tr td:first-child{
+    font-weight: bold;
+}

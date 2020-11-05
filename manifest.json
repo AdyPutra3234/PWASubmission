@@ -1,0 +1,37 @@
+{
+    "name": "Goals Football",
+    "short_name" : "GoalsFootball",
+        "description" : "Info SepakBola TerUpdate",
+        "start_url" : "/index.html",
+        "display": "standalone",
+        "background_color": "#43cea2",
+        "theme_color": "#43cea2",
+        "icons": [
+    
+            {
+                "src":"assets/icons/icon-512x512.png",
+                "sizes":"512x512",
+                "type":"image/png",
+                "purpose": "maskable any"
+            },
+            {
+                "src":"assets/icons/icon-192x192.png",
+                "sizes":"192x192",
+                "type":"image/png",
+                "purpose": "maskable any"
+            },
+            {
+                "src":"assets/icons/icon-144x144.png",
+                "sizes":"144x144",
+                "type":"image/png",
+                "purpose": "maskable any"
+            },
+            {
+                "src":"assets/icons/icon-76x76.png",
+                "sizes":"76x76",
+                "type":"image/png",
+                "purpose": "maskable any"
+            }
+        ],
+    "gcm_sender_id": "1074959444692"
+}

@@ -1,0 +1,49 @@
+/* Safari & Chrome */
+
+.unvisibleSB::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+
+.mediumSB::-webkit-scrollbar{
+    width: 6px;
+    height: 0;
+}
+
+.mediumSB::-webkit-scrollbar-track{
+    background:#e3e6e5;
+}
+
+.mediumSB::-webkit-scrollbar-thumb{
+    background-color:#029991;
+    border-radius: 4px;
+    
+}
+
+.smallSB::-webkit-scrollbar{
+    width: 3px;
+    height: 0;
+}
+
+.smallSB::-webkit-scrollbar-track{
+    background:#e3e6e5;
+}
+
+.smallSB::-webkit-scrollbar-thumb{
+    background-color:#029991;
+    border-radius: 4px;
+    
+}
+/* ....................... */
+
+/* Firefox */
+.unvisibleSB{
+    scrollbar-width: none;
+}
+
+.mediumSB,.smallSB {
+    scrollbar-color: turquoise beige;
+    scrollbar-width: thin;
+}
+/* ................. */

@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(#43cea2 , #185a9d);
+}
+
+nav{
+    background-color: #43cea2;
+}
+
+#body-content {
+    margin: 60px auto;
+}
+
+.brand-logo {
+    font-family: 'Lobster', cursive;
+}
+
+#klasemen {
+    height: 530px !important;
+}
+
+#top1 {
+    border-radius: 3px;
+    height: 530px;
+    overflow: auto;
+    background-image:linear-gradient(to top ,rgba(0,0,0,0.8), rgba(0,0,0,0)), url(../assets/background1.jpg);
+    background-size: cover;
+    color: white;
+}
+
+#tabel-klasemen table{
+    position: relative;
+}
+
+#tabel-klasemen table tr th {
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(218, 214, 214);
+    color: rgb(66, 65, 65);
+    border-radius: 0;
+}
+
+#tabel-klasemen tbody tr td:nth-child(n+3){
+    text-align: center;
+}
+
+#tabel-klasemen tbody tr td:first-child{
+    text-align: center;
+}
+
+#tabel-klasemen tbody tr td:nth-child(7) {
+    font-weight: bold;
+}
+
+#tabel-klasemen{
+    height: 530px;
+    overflow: auto;
+    padding-left: 0;
+}
+
+#tabel-dataList tr td a.valign-wrapper {
+    width: max-content;
+    color: black;
+}
+
+img.small-img {
+    height: 20px;
+}
+
+#listPertandingan, #jadwalPertandingan{
+    height: 530px;
+    padding: 0 10px;
+    overflow: auto;
+}
+
+#listPertandingan .card {
+    height: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#listPertandingan .card p {
+    background-color: lightgray;
+    font-weight: 200;
+    padding-left: 5px;
+}
+
+#listPertandingan .card .row {
+    height: 100%;
+    padding: 0 10px;
+}
+
+#jadwalPertandingan .card {
+    height: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#jadwalPertandingan .card p {
+    background-color: lightgray;
+    font-weight: 200;
+    padding-left: 5px;
+}
+
+#jadwalPertandingan .card .row {
+    height: 100%;
+    padding: 0 10px;
+}
+
+.score {
+    font-size: 25px;
+}
+
+.card#listPertandingan {
+    background: linear-gradient(rgb(62, 62, 252), rgb(0, 132, 255), rgb(0, 204, 255), rgb(0, 255, 191));
+}
+
+h5 {
+    color: white;
+    font-weight: 600;
+}
+
+.loader {
+    position: absolute;
+    bottom: 45%;
+    right: 45%;
+}
+
+#detilClubs .col .card {
+    height: 300px;
+}
+
+img.responsive-img {
+    height: 160px;
+}
+
+.card .card-content {
+    padding: 50px 0 0 0 !important;
+}
+
+.card .card-content button {
+    padding: 5px;
+    height: 35px;
+    border: solid 1px orchid;
+    border-radius: 4px;
+    color: white;
+    background: linear-gradient(#cc2b5e, #753a88);
+}
+
+.card .card-content button a {
+    color: white;
+}
+
+div#saveCard {
+    box-shadow: 1px 1px 6px 2px aquamarine;
+}
+
+/* responsive break point */
+
+@media only screen and (max-width: 600px) {
+
+    img.logo  {    
+            height: 160px;
+            padding-top: 20px;
+            padding-left: 50px;
+            padding-right: 50px;
+    }
+    
+  }
